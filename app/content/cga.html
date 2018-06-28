@@ -1,0 +1,82 @@
+<script>
+    $(function(){
+       	$('#cgachocolat_desk').Chocolat({
+           	loop: true,
+       	})
+       	$('#cgachocolat_mob').Chocolat({
+           	loop: true,
+       	})
+    });
+
+    window.sr = ScrollReveal( {reset: true} );
+
+      // Add class to <html> if ScrollReveal is supported
+      // Note: this method is deprecated, and only works in version 3
+      if (sr.isSupported()) {
+        document.documentElement.classList.add('sr');
+    }
+</script>
+
+
+
+
+
+<section class="color-yellow" data-color="yellow">
+	<div class="container-fluid">
+		<div class="row justify-content-center">
+			<div class="col-xl-2 col-lg-1"></div>
+			<div class="col-xl-1 col-lg-1 col-md-1">
+				<a class="contentlink" href="#work">
+					<img class="arrow" src="images/cga/back-arrow-cga.png">
+				</a>
+			</div>
+			<div class="col-xl-6 col-lg-8 col-md-10">
+				<div class="project-container">
+					<h4 style="color: #424A77;">Character Growth App</h4>
+					<p style="color: #424A77;">Character Lab, a nonprofit dedicated to developing character strengths in children, is developing an iOS app to help middle- and high school- students grow in 9 different key strength areas. This is done through personal self-assessments, assessments by their teachers, and by giving "Kudos" to one another to recognize when these strengths are used. In designing the app, one of the challenges I faced was to make it kid-friendly and fun enough for kids as young as 11 and mature enough for kids as old as 18.</p>
+				</div>
+				<div class="row project-row fooContainer">
+					<div class="col-sm-8">
+						<div id="cgachocolat_desk" data-chocolat-title="cgametrics">
+							<a class="chocolat-image" href="./images/cga/deskdashboard.png" title="Dashboard">
+								<img class="fooReveal" src="./images/cga/deskdashboard.png">
+							</a>
+							<a class="chocolat-image" href="./images/cga/strengths.png" title="Dashboard">
+								<img class="fooReveal" src="./images/cga/strengths.png">
+							</a>
+							<a class="chocolat-image" href="./images/cga/checkins.png" title="Dashboard">
+								<img class="fooReveal" src="./images/cga/checkins.png">
+							</a>
+							<a class="chocolat-image" href="./images/cga/class.png" title="Dashboard">
+								<img class="fooReveal" src="./images/cga/class.png">
+							</a>
+						</div>
+					</div>
+					<div class="col-sm-4">
+						<div id="cgachocolat_mob">
+							<a class="chocolat-image" href="./images/cga/dashboard.png" title="Dashboard">
+								<img class="fooReveal" src="./images/cga/dashboard.png">
+							</a>
+							<a class="chocolat-image" href="./images/cga/grit.png" title="Dashboard">
+								<img class="fooReveal" src="./images/cga/grit.png">
+							</a>
+							<a class="chocolat-image" href="./images/cga/zest.png" title="Dashboard">
+								<img class="fooReveal" src="./images/cga/zest.png">
+							</a>
+							<a class="chocolat-image" href="./images/cga/settings.png" title="Dashboard">
+								<img class="fooReveal" src="./images/cga/settings.png">
+							</a>
+							<a class="chocolat-image" href="./images/cga/onboard.png" title="Dashboard">
+								<img class="fooReveal" src="./images/cga/onboard.png">
+							</a>							
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="col-xl-3 col-lg-2 col-md-1"></div>
+		</div>
+	</div>
+</section>
+<script>
+	sr.reveal('.fooReveal');
+</script>
