@@ -1,0 +1,71 @@
+<style type="text/css">
+  .worklink{
+    opacity: 0.7 !important;
+  }
+</style>
+
+<script>
+    $(function(){
+       	$('#cpchocolat').Chocolat({
+           	loop: true,
+       	})
+       	$('#cpchocolat').Chocolat({
+           	loop: true,
+       	})
+    });
+
+    window.sr = ScrollReveal( {reset: true} );
+
+      // Add class to <html> if ScrollReveal is supported
+      // Note: this method is deprecated, and only works in version 3
+      if (sr.isSupported()) {
+        document.documentElement.classList.add('sr');
+    }
+</script>
+
+
+
+
+
+<section class="color-green" data-color="green">
+	<div class="container-fluid">
+		<div class="row justify-content-center">
+			<div class="col-xl-2 col-lg-1"></div>
+			<div class="col-xl-1 col-lg-1 col-md-1">
+				<a class="contentlink" href="#work">
+					<img class="arrow" src="images/expi/back-arrow-expi.png">
+				</a>
+			</div>
+			<div class="col-xl-6 col-lg-8 col-md-10">
+				<div class="project-container">
+					<h4 style="color: #303B44;">CenterPoint</h4>
+					<p style="color: #303B44;">CenterPoint is a project I inherited at nimblejack. A flagship product of Allied Solutions, its purpose is to facilitate communication and action between credit unions/banks and Allied, which insures their loans. When I started on the project, many sections of the application had already been designed. However, there was little consistency, and the artfiles were in Photoshop.  I took them into Sketch and created a design system of UI components, improving upon usability and aesthetic appeal and helping to maintain consistent user experience across the many pages of the application.</p>
+					<p>I worked with a small team to gather user data in interviews, and testing designs through UsabilityHub. Designs were heavily informed by research and testing, stripping out the unnecessary clutter of its previous iteration to create a product that is truly centered on the end user.</p>
+					<p>I have only included a selection of screens I designed the majority of.</p>
+				</div>
+				<div class="row project-row fooContainer">
+					<div class="col-sm-12">
+						<div id="cpchocolat" data-chocolat-title="CenterPoint">
+							<a class="chocolat-image" href="./images/centerpoint/library.png" title="Component Library">
+								<img class="fooReveal" src="./images/centerpoint/library.png">
+							</a>
+							<a class="chocolat-image" href="./images/centerpoint/claims.png" title="Claims">
+								<img class="fooReveal" src="./images/centerpoint/claims.png">
+							</a>
+							<a class="chocolat-image" href="./images/centerpoint/verify.png" title="Verify">
+								<img class="fooReveal" src="./images/centerpoint/verify.png">
+							</a>
+							<a class="chocolat-image" href="./images/centerpoint/premium.png" title="Premium Accounting">
+								<img class="fooReveal" src="./images/centerpoint/premium.png">
+							</a>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="col-xl-3 col-lg-2 col-md-1"></div>
+		</div>
+	</div>
+</section>
+<script>
+	sr.reveal('.fooReveal');
+</script>

@@ -1,0 +1,87 @@
+<style type="text/css">
+  .worklink{
+    opacity: 0.7 !important;
+  }
+</style>
+
+<script>
+    $(function(){
+       	$('#expichocolat_desk').Chocolat({
+           	loop: true,
+       	})
+       	$('#expichocolat_mob').Chocolat({
+           	loop: true,
+       	})
+    });
+
+    window.sr = ScrollReveal( {reset: true} );
+
+      // Add class to <html> if ScrollReveal is supported
+      // Note: this method is deprecated, and only works in version 3
+      if (sr.isSupported()) {
+        document.documentElement.classList.add('sr');
+    }
+</script>
+
+
+
+
+
+<section class="color-orange" data-color="orange">
+	<div class="container-fluid">
+		<div class="row justify-content-center">
+			<div class="col-xl-2 col-lg-1"></div>
+			<div class="col-xl-1 col-lg-1 col-md-1">
+				<a class="contentlink" href="#work">
+					<img class="arrow" src="images/expi/back-arrow-expi.png">
+				</a>
+			</div>
+			<div class="col-xl-6 col-lg-8 col-md-10">
+				<div class="project-container">
+					<h4 style="color: #303B44;">Expimetrics</h4>
+					<p style="color: #303B44;">Expimetrics is a Purdue University-based startup. We created an experience-sampling platform for social scientists. It consists of a web application and a native mobile app. The web app allowed scientists and researchers to create projects, build and schedule surveys within them, select target demographics, and send surveys to participants. The mobile app allowed participants to take surveys and input question, audio, photo, and video data from anywhere. I designed all UI for the company's products, as well as their logo, branding, and all marketing assets. Check it out at expimetrics.com</p>
+				</div>
+				<div class="row project-row fooContainer">
+					<div class="col-sm-8">
+						<h5 style="opacity: 0.3">Web App</h5>
+						<div id="expichocolat_desk" data-chocolat-title="Expimetrics">
+							<a class="chocolat-image" href="./images/expi/dash.png" title="Dashboard">
+								<img class="fooReveal" src="./images/expi/dash.png">
+							</a>
+							<a class="chocolat-image" href="./images/expi/builder.png" title="Survey Builder">
+								<img class="fooReveal" src="./images/expi/builder.png">
+							</a>
+							<a class="chocolat-image" href="./images/expi/insights.png" title="Insights">
+								<img class="fooReveal" src="./images/expi/insights.png">
+							</a>
+							<a class="chocolat-image" href="./images/expi/schedule.png" title="Schedule">
+								<img class="fooReveal" src="./images/expi/schedule.png">
+							</a>
+						</div>
+					</div>
+					<div class="col-sm-4">
+						<h5 style="opacity: 0.3">iOS</h5>
+						<div id="expichocolat_mob">
+							<a class="chocolat-image" href="./images/expi/home.png" title="Dashboard">
+								<img class="fooReveal" src="./images/expi/home.png">
+							</a>
+							<a class="chocolat-image" href="./images/expi/experiences.png" title="Dashboard">
+								<img class="fooReveal" src="./images/expi/experiences.png">
+							</a>
+							<a class="chocolat-image" href="./images/expi/discover.png" title="Dashboard">
+								<img class="fooReveal" src="./images/expi/discover.png">
+							</a>
+							<a class="chocolat-image" href="./images/expi/profile.png" title="Dashboard">
+								<img class="fooReveal" src="./images/expi/profile.png">
+							</a>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="col-xl-3 col-lg-2 col-md-1"></div>
+		</div>
+	</div>
+</section>
+<script>
+	sr.reveal('.fooReveal');
+</script>
