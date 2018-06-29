@@ -80,6 +80,7 @@ $(document).ready(function(){
   ['load','hashchange'].forEach(function(event) {
     window.addEventListener(event, function() {
       $('#content').load('content/' + (window.location.hash.slice(1) || 'work') + '.html')
+      window.scrollTo(500,0);
     })
   })
 
