@@ -84,6 +84,25 @@ $(document).ready(function(){
     })
   })
 
+
+
+
+  $('#toggle').click(function() {
+    $(this).toggleClass('active');
+    $('#overlay').toggleClass('open');
+  });
+
+  $('.navamobile').click(function() {
+    $('#toggle').removeClass('active');
+    $('#overlay').removeClass('open');
+  });
+
+
+
+
+
+
+
   /*   BACKGROUND COLOR CHANGE       */
   $(window).scroll(function() {
     var $window = $(window),
