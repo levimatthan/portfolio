@@ -240,8 +240,24 @@ html, body {
 // Medium devices (tablets, 768px and up)
 @media (min-width: 768px) {  
 
+  .color-cube{
+    height: 530px !important;
+  }
+
   .arrow{
     display: block !important;
+  }
+
+  .work-section{
+    height: 1000px !important;
+  }
+
+  .textbox{
+    position: absolute;
+    width: 800px !important;
+    z-index: 100;
+    top: 360px;
+    left: 50px;
   }
   
   .textbox2{
@@ -360,7 +376,9 @@ html, body {
 
 
 
-
+.work-section{
+  height: 700px;
+}
 
 
 
@@ -384,9 +402,9 @@ html, body {
 
 .textbox{
   position: absolute;
-  width: 800px;
+  width: 300px;
   z-index: 100;
-  top: 360px;
+  top: 260px;
   left: 50px;
 }
 
@@ -497,7 +515,7 @@ h1, h2, h3, h4, h5, h6, p, a {
 
 h1{
   color: #094C3D;
-  font-size: 26px;
+  font-size: 36px;
   font-weight: 700;
   letter-spacing: 2px;
   font-family: 'Avenir Next LT W01 Bold';
@@ -505,7 +523,7 @@ h1{
 
 h2{
   color: #0D6F59;
-  font-size: 26px;
+  font-size: 36px;
   font-weight: 600;
   letter-spacing: 2px;
   margin-top: 20px;
@@ -635,7 +653,7 @@ p{
 
 .color-cube{
   width: 100%;
-  height: 530px;
+  height: 350px;
   /*position: absolute;
   top: 0;
   right: 0;*/
