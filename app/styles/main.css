@@ -22,7 +22,7 @@ will be correctly compiled during `gulp serve` and `gulp`
 html, body {
   margin: 0;
   padding: 0;
-  background-color: #f8fbf8;
+  /*background-color: #f8fbf8;*/
   transition: background-color 1s ease;
 }
 .mdl-demo .mdl-layout__header-row {
@@ -279,10 +279,11 @@ html, body {
     font-weight: 700;
     letter-spacing: 3.2px;
     font-family: 'Avenir Next LT W01 Bold';
+    margin-top: 160px;
   }
 
   h2{
-    color: #0D6F59;
+    color: #0D6F59 !important;
     font-size: 48px !important;
     font-weight: 600;
     letter-spacing: 3.2px;
@@ -522,7 +523,7 @@ h1{
 }
 
 h2{
-  color: #0D6F59;
+  color: #FADFDF;
   font-size: 36px;
   font-weight: 600;
   letter-spacing: 2px;
