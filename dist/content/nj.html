@@ -1,0 +1,117 @@
+<style type="text/css">
+  .worklink{
+    opacity: 0.7 !important;
+  }
+</style>
+
+<script>
+    $(function(){
+       	$('#nj1chocolat').Chocolat({
+           	loop: true,
+       	})
+       	$('#nj2chocolat').Chocolat({
+           	loop: true,
+       	})
+       	$('#nj3chocolat').Chocolat({
+           	loop: true,
+       	})
+       	$('#nj4chocolat').Chocolat({
+           	loop: true,
+       	})
+    });
+    window.sr = ScrollReveal( {reset: false} );
+      // Add class to <html> if ScrollReveal is supported
+      // Note: this method is deprecated, and only works in version 3
+      if (sr.isSupported()) {
+        document.documentElement.classList.add('sr');
+    }
+</script>
+
+
+
+
+
+<section class="color-blue" data-color="blue">
+	<div class="container-fluid">
+		<div class="row justify-content-center padding-0">
+			<div class="col"></div>
+			<div class="col-xl-1 col-lg-1">
+				<a class="contentlink" href="#work">
+					<img class="arrow" src="images/pgc/back-arrow-expi.png">
+				</a>
+			</div>
+			<div class="col-xl-7 col-lg-8">
+				<div class="project-container">
+					<h4 style="color: #FFE8E8;">nimblejack</h4>
+					<p style="color: #FFE8E8;">While at nimblejack, I was tasked with doing a near-complete overhaul of our brand. This included a new website, brand style guide, new colors, font, brand "personality", and several design elements and assets. </p>
+					<p style="color: #FFE8E8;">The existing site looked like this:</p>
+				</div>
+				<div class="row project-row fooContainer padding-0">
+					<div class="col-sm-12">
+						<h5 style="opacity: 0.3">Old site</h5>
+						<div id="nj1chocolat" data-chocolat-title="nj1">
+							<a class="chocolat-image" href="./images/nj/nj_old.png" title="Old Site">
+								<img class="fooReveal" src="./images/pgc/nj_old.png">
+							</a>
+						</div>
+					</div>
+				</div>
+				<p style="color: #FFE8E8;">I brought in new images and created a new set of icons for the different categories of gifts (Aid Kits, Livestock, Agriculture, Water, and People). Through checking analytics, I saw that the "How It Works" page was rarely visited, so I brought that section into the home page to prevent an extra click/leaving the site. Then, through tweaking fonts, spacing and colors, I ended up with this:</p>
+				<div class="row project-row fooContainer">
+					<div class="col-sm-6">	
+						<h5 style="opacity: 0.3">Refresh</h5>
+						<div id="nj2chocolat" data-chocolat-title="nj2">
+							<a class="chocolat-image" href="./images/nj/nj_desktop_1.jpg" title="Refresh - Desktop">
+								<img class="fooReveal" src="./images/nj/nj_desktop_1.jpg">
+							</a>
+						</div>
+					</div>
+				</div>
+        <div class="row project-row fooContainer">
+					<div class="col-sm-6">	
+						<h5 style="opacity: 0.3">Refresh</h5>
+						<div id="nj3chocolat" data-chocolat-title="nj3">
+							<a class="chocolat-image" href="./images/nj/nj_desktop_2.jpg" title="Refresh - Desktop">
+								<img class="fooReveal" src="./images/nj/nj_desktop_2.jpg">
+							</a>
+						</div>
+					</div>
+				</div>
+				<div class="row project-row fooContainer">
+					<div class="col-sm-5">	
+						<h5 style="opacity: 0.3">Icons</h5>
+						<div id="pgc3chocolat" data-chocolat-title="pgc3">
+							<a class="chocolat-image" href="./images/pgc/aid.png" title="Aid Kits Icon">
+								<img class="fooReveal" src="./images/pgc/aid.png">
+							</a>
+							<a class="chocolat-image" href="./images/pgc/livestock.png" title="Livestock Icon">
+								<img class="fooReveal" src="./images/pgc/livestock.png">
+							</a>
+							<a class="chocolat-image" href="./images/pgc/ag.png" title="Agriculture Icon">
+								<img class="fooReveal" src="./images/pgc/ag.png">
+							</a>
+							<a class="chocolat-image" href="./images/pgc/water.png" title="Water Icon">
+								<img class="fooReveal" src="./images/pgc/water.png">
+							</a>
+							<a class="chocolat-image" href="./images/pgc/people.png" title="People Icon">
+								<img class="fooReveal" src="./images/pgc/people.png">
+							</a>
+						</div>
+					</div>
+					<div class="col-sm-7">	
+						<h5 style="opacity: 0.3">Mobile View</h5>
+						<div id="pgc4chocolat" data-chocolat-title="pgc4">
+							<a class="chocolat-image" href="./images/pgc/mobile-new.png" title="Refresh - Mobile">
+								<img class="fooReveal" src="./images/pgc/mobile-new.png">
+							</a>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="col"></div>
+		</div>
+	</div>
+</section>
+<script>
+	sr.reveal('.fooReveal');
+</script>
